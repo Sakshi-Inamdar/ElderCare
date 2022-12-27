@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.navBar{
+    
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content:end;
+    position: fixed;
+    background-color: rgb(123, 213, 243);
+    width: 100%;
+    
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+    
+    padding-top: 15px;
+    border-color: black;
+    border: 10px;
+    
+    
+}
+.navBar .abme{
+    padding-right: 10vh;
+    
+}
+.tech{
+    padding-right: 10vh;
+}
+.body{
+    padding-top: 50px;
+   
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+}
+.body img{
+    height: 70vh;
+    width: 70vh;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.body .text{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 80px;
+    
+}
+.body .text h2{
+    font-size: 2.65rem;
+}
+.body .text h4{
+    font-size: 1rem;
+    padding: 10px;
+    
+}
+
+.overview {
+    text-align: left;
+    padding: 0 50px 0 50px;
+    word-spacing: 2px;
+    
+}
+.overview .telemedicine{
+    display: flex;
+    flex-direction: row;
+}
+.overview .telemedicine img{
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+}
+.overview .telemedicine form{
+    padding-top: 20px;
+    padding-left: 30%;
+}
+.medCare img{
+    height: 200px;
+    width:400px;
+}
+
+@media screen and (max-width:787px) {
+    .body{
+        flex-direction: column;
+    }
+    .body img{
+        height: 70vh;
+        width: 65vh;
+        padding-left: 0px;
+    }
+
+    .body .text{
+        padding-top: 10px;
+    }
+    
+    .overview .telemedicine{
+        flex-direction: column;
+    }
+    .medCare img{
+        height: 20%;
+        width:100%;
+    }
+    
+}
